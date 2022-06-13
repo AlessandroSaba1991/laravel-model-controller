@@ -12173,8 +12173,36 @@ fieldset:disabled .btn {
   }
 }
 
+/* Common */
+
 a {
   text-decoration: none;
   color: initial;
+}
+
+/* Utility */
+
+.bg_trasparent {
+  background-color: rgba(0, 0, 255, 0.451);
+}
+
+/* Main */
+
+main {
+  overflow-y: auto;
+  height: calc(100vh - 201.36px);
+  background-image: url("https://image.khaleejtimes.com/?uuid=4d3d56e0-2cf9-494d-8f20-fc5c24681973&function=cropresize&type=preview&source=false&q=75&crop_w=0.8&crop_h=0.99999&x=0.1&y=0&width=1200&height=675");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.movies .card {
+  min-height: 280px;
+}
+
+.movies .card img {
+  height: 100%;
+  width: 100%;
 }
 

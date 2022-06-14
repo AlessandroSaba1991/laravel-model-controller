@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="{{route('home')}}">
                 <img width="160" src="https://www.kindpng.com/picc/m/8-80623_transparent-movies-logo-png-movies-logo-transparent-png.png" alt="logo">

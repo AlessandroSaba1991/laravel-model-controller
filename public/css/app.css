@@ -12180,12 +12180,6 @@ a {
   color: initial;
 }
 
-/* Utility */
-
-.bg_trasparent {
-  background-color: rgba(0, 0, 255, 0.451);
-}
-
 /* Main */
 
 main {
@@ -12218,7 +12212,7 @@ main {
   -o-object-fit: contain;
      object-fit: contain;
   aspect-ratio: 1/1;
-  width: 300px;
+  width: 20%;
   position: absolute;
   top: 0;
   left: 20%;

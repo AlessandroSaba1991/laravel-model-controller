@@ -3,7 +3,7 @@
 <section class="movies py-5">
     <div class="container">
         <h2 class="text-white text-uppercase text-center mb-4">movies</h2>
-        <div class="row row-cols-3 g-3">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
             @forelse($movies as $movie)
             <div class="col">
                 <div class="card h-100">
